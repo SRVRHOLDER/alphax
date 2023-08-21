@@ -24,7 +24,7 @@ local Themes = {
     ['Default'] = {
         BackgroundColor = Color3.fromRGB(25, 25, 25),
         SidebarColor = Color3.fromRGB(30, 30, 30),
-        PrimaryTextColor = Color3.fromRGB(255, 255, 255),
+        PrimaryTextColor = Color3.fromRGB(69, 199, 190),
         SecondaryTextColor = Color3.fromRGB(135, 135, 135),
         UIStrokeColor = Color3.fromRGB(60, 60, 60),
         PrimaryElementColor = Color3.fromRGB(30, 30, 30),
@@ -1309,7 +1309,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             Size = UDim2.new(0, 170, 0, 20),
             Font = Enum.Font.Gotham,
             Text = HubName,
-            TextColor3 = Color3.new(0.415686, 0.807843, 0.721569),
+            TextColor3 = Theme.PrimaryTextColor,
             TextSize = 20,
             ZIndex = 2,
             TextXAlignment = Enum.TextXAlignment.Left
